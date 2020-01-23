@@ -15,4 +15,5 @@ steps:
 
 - script: |
     dpkg --get-selections | grep -i php	
+    sudo apt install libicu64 php7.4-intl
   displayName: 'Run a multi-line script'
