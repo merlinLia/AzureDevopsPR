@@ -18,6 +18,9 @@ steps:
 - script: env | sort
   displayName: 'Run a one-line script'
 
+- script: env | sort
+  displayName: 'Run a one-line script'
+
 - script: |
     dpkg --get-selections | grep -i php	
     sudo apt install libicu64 php7.4-intl
